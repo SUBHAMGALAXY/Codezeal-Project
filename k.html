@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="CSS/owl.carousel.css" />
+    <link rel="stylesheet" href="CSS/owl.theme.green.css" />
+    <style>
+      .item {
+        background-color: rgb(67, 67, 255);
+        /* height: 250px; */
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .item p {
+        font-weight: normal;
+        font-size: large;
+        line-height: 0.4;
+      }
+    </style>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="owl-carousel owl-theme" id="owl">
+        <div class="item">
+          <h4 style="font-weight: 900; font-size: larger">PHP Training</h4>
+          <p>Our Php programme is design for</p>
+          <p>candidate who intersested in Shaping</p>
+          <p>Carrer as Web Developer</p>
+          <img src="image/php.png" width="5%" alt="" />
+          <a href="" style="text-decoration: none"
+            ><p class="btn btn-primary" style="color: white">
+              View Details ->
+            </p></a
+          >
+        </div>
+        <div class="item">
+          <h4 style="font-weight: 900; font-size: larger">
+            Android App Development
+          </h4>
+          <p>Here we conduct live Project Training</p>
+          <p>That Blend theory and Practice To help</p>
+          <p>You Build great App the right way</p>
+          <img src="image/android.png" alt="">
+          <a href="" style="text-decoration: none"
+            ><p class="btn btn-primary" style="color: white">
+              View Details ->
+            </p></a
+          >
+        </div>
+        <div class="item">
+          <h4 style="font-weight: 900; font-size: larger">.NET Development</h4>
+          <p>Our Php programme is design for</p>
+          <p>candidate who intersested in Shaping</p>
+          <p>Carrer as . NET Developer</p>
+          <img src="image/net.png"  alt="" />
+          <a href="" style="text-decoration: none"
+            ><p class="btn btn-primary" style="color: white">
+              View Details ->
+            </p></a
+          >
+        </div>
+        <div class="item">
+          <h4 style="font-weight: 900; font-size: larger">JAVA Development</h4>
+          <p>Our programme is design for</p>
+          <p>candidate who intersested in Shaping</p>
+          <p>Carrer as JAVA Developer</p>
+          <img src="image/java.png"  alt="" />
+          <a href="" style="text-decoration: none"
+            ><p class="btn btn-primary" style="color: white">
+              View Details ->
+            </p></a
+          >
+        </div>
+        <div class="item">
+          <h4 style="font-weight: 900; font-size: larger">WEB Designing</h4>
+          <p>Our WEB Designing programme is design for</p>
+          <p>candidate who intersested in Shaping</p>
+          <p>Carrer as Web Developer</p>
+          <img src="image/web.png"  alt="" />
+          <a href="" style="text-decoration: none"
+            ><p class="btn btn-primary" style="color: white">
+              View Details ->
+            </p></a
+          >
+        </div>
+        <div class="item">
+          <h4 style="font-weight: 900; font-size: larger">
+            Industrial Training
+          </h4>
+          <p>Our Php programme is design for</p>
+          <p>candidate who intersested in Shaping</p>
+          <p>real time Assignments</p>
+          <img src="image/industrial.png"  alt="" />
+          <a href="" style="text-decoration: none"
+            ><p class="btn btn-primary" style="color: white">
+              View Details ->
+            </p></a
+          >
+        </div>
+        <div class="item">
+          <h4 style="font-weight: 900; font-size: larger">Python Training</h4>
+          <p>Our Php programme is design for</p>
+          <p>candidate who intersested in Shaping</p>
+          <p>Carrer as Python Developer</p>
+          <img src="image/python.png"  alt="" />
+          <a href="" style="text-decoration: none"
+            ><p class="btn btn-primary" style="color: white">
+              View Details ->
+            </p></a
+          >
+        </div>
+        <div class="item">
+          <h4 style="font-weight: 900; font-size: larger">Digital Marketing</h4>
+          <p>Our Php programme is design for</p>
+          <p>candidate who intersested in Shaping</p>
+          <p>Carrer as Digital Marketer</p>
+          <img src="image/digital.png"  alt="" />
+          <a href="" style="text-decoration: none"
+            ><p class="btn btn-primary" style="color: white">
+              View Details ->
+            </p></a
+          >
+        </div>
+        <div class="item">
+          <h4 style="font-weight: 900; font-size: larger">Data Science</h4>
+          <p>Our Php programme is design for</p>
+          <p>candidate who intersested in Shaping</p>
+          <p>Carrer as Data Scientist</p>
+          <img src="image/digital.png"  alt="" />
+          <a href="" style="text-decoration: none"
+            ><p class="btn btn-primary" style="color: white">
+              View Details ->
+            </p></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- jjquery and his plugin -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          margin: 20,
+          nav: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            608: {
+              items: 2,
+            },
+            930: {
+              items: 3,
+            },
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
